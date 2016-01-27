@@ -1,0 +1,64 @@
+/* Page Layout for Solar System Escape*/
+
+nav {
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+h1 {
+	text-align: center;
+	box-shadow: orange;
+}
+
+h2 {
+	text-align: center;
+}
+
+canvas {
+	border:solid thin gray;
+	margin:2% auto;
+	display:block;
+	box-shadow: 1px 1px 5px 15px orange;
+}
+
+section {
+	text-align: center;
+}
+
+section button {
+	display: inline;
+	text-align: center;
+}
+
+p {
+	display: inline;
+	text-align: center;
+}
+
+#space {
+	display: none;
+}
+
+footer {
+	text-align: center;
+}
+
+/*==================================================================*/
+						/* Responsive Design */
+/*==================================================================*/
+
+
+/*==================================================================*/
+@media all and (max-width: 660px) {
+	canvas {
+		display: none;
+	}
+
+	#space {
+		display: inline-block;
+		border: solid thin gray;
+	}
+}
